@@ -1,4 +1,4 @@
-<!DOCTYphp>
+<!DOCTYPE html>
 <html lang="en">
 
 <head>
@@ -25,7 +25,7 @@
   <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
 
   <!-- Main CSS File -->
-  <link href="assets/css/main.css" rel="stylesheet">
+  <link href="/LadyD_Consult/assets/css/main.css" rel="stylesheet"> <!-- Chemin absolu recommandé -->
 </head>
 
 <body class="index-page">
@@ -33,7 +33,7 @@
   <header id="header" class="header d-flex align-items-center sticky-top">
     <div class="container position-relative d-flex align-items-center">
 
-      <a href="index.html" class="logo d-flex align-items-center me-auto">
+      <a href="index.php" class="logo d-flex align-items-center me-auto">
         <!-- Uncomment the line below if you also wish to use an image logo -->
         <!-- <img src="assets/img/logo.png" alt=""> -->
         <h1 class="sitename">LadyD_Consult</h1><span>.</span>
